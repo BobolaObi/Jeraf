@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {ProductsComponent} from "./products/products.component";
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { StayConnectedComponent } from './stay-connected/stay-connected.component';
-import { TutorialComponent } from './tutorial/tutorial.component';
+import {ProductsComponent} from "./components/products/products.component";
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { StayConnectedComponent } from './components/stay-connected/stay-connected.component';
+import { TutorialComponent } from './components/tutorial/tutorial.component';
 
 @NgModule({
   declarations: [
