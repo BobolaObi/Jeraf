@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import {ProductsComponent} from "./products/products.component";
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { StayConnectedComponent } from './stay-connected/stay-connected.component';
+import { TutorialComponent } from './tutorial/tutorial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    StayConnectedComponent,
+    TutorialComponent
   ],
   imports: [
     BrowserModule

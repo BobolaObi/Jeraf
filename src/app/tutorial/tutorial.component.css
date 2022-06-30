@@ -1,0 +1,25 @@
+/*Body Styles*/
+body, div{
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+section{
+  display: flex;
+  flex-direction: column;
+ max-width: 500px;
+}
+
+/*Image Styles*/
+img{
+  max-width: 300px;
+}
+
+/*Text Styles*/
+h2{
+  align-items: flex-start;
+  padding:0 50px;
+}
+h4{
+  padding: 20px;
+}
