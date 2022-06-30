@@ -1,4 +1,5 @@
 /* Products Styles */
+
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -18,7 +19,7 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 span {
@@ -26,7 +27,6 @@ span {
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
-  width: 80%;
   margin: auto;
 }
 
@@ -36,6 +36,7 @@ span {
   height: 300px;
   object-fit: contain;
   border-radius: 3px;
+  margin: 0px 50px;
   /*background-color: #c06013;*/
 }
 
@@ -47,20 +48,18 @@ opacity: 50%;
 h2{
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
-  font-size: clamp(40px, 2vh, 50px);
+  font-size: clamp(25px, 2vh, 50px);
 }
 
 p {
   width: 60%;
   text-align: center;
-  font-family: 'Itim', cursive;
   font-size: larger;
 }
 
 /*Button / Link Styles*/
 a {
   background-color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   border-radius: 10px;
   padding: 18px 30px;
@@ -68,7 +67,7 @@ a {
   border:0px;
   text-decoration: none;
 }
-
+/*Responsive styling*/
 @media only screen and (max-width: 907px) {
   section {
     flex-wrap: wrap;
