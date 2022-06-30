@@ -3,6 +3,7 @@ body, div{
   display: flex;
 align-items: center;
 justify-content: space-evenly;
+  margin: auto;
 }
 section{
   display: flex;
@@ -12,7 +13,9 @@ section{
 
 /*Image Styles*/
 img{
-  max-width: 300px;
+  max-width: 600px;
+object-fit: cover;
+  object-position: -3px 200px ;
 }
 
 /*Text Styles*/
@@ -20,6 +23,7 @@ h2{
   align-items: flex-start;
   padding:0 50px;
 }
-h4{
-  padding: 20px;
+h3{
+  padding: 30px;
+  font-weight: normal;
 }

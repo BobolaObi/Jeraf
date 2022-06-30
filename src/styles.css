@@ -13,3 +13,7 @@ a{
 p{
   font-family: 'Itim', cursive;
 }
+
+app-stay-connected{
+  position: sticky;
+}
