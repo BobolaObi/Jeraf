@@ -6,14 +6,12 @@ h1, h2, h3, h4 , h5{
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
 }
-a{
-  font-family: 'Roboto', sans-serif;
-}
+/*a{*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*}*/
 
-p{
+p, a{
   font-family: 'Itim', cursive;
 }
 
-app-stay-connected{
-  position: sticky;
-}
+
