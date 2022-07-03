@@ -4,13 +4,9 @@
 *{
   transition: 0.9s  ease-in-out;
   animation: fadeIn 0.9s;
-
 }
 
-/*@keyframes fadeIn {*/
-/*  0% { opacity: 0; }*/
-/*  100% { opacity: 1; }*/
-/*}*/
+
 h1, h2, h3, h4 , h5, h6{
   font-family: 'Inter', sans-serif;
 font-weight: bolder;
