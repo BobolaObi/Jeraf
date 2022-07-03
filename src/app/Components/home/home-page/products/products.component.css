@@ -1,8 +1,11 @@
 /* Products Styles */
 body {
+
+border: 35px solid white;
+
   padding-top: 40px;
   padding-bottom: 40px;
-
+background-color: #F5F5F5;
 }
 
 div {
@@ -50,7 +53,7 @@ opacity: 50%;
 h2{
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
-  font-size: clamp(25px, 2vh, 50px);
+  font-size: clamp(29px, 2vh, 57px);
 }
 
 p {
@@ -71,6 +74,9 @@ a {
 }
 /*Responsive styling*/
 @media only screen and (max-width: 907px) {
+  body{
+    border: 0;
+  }
   section {
     flex-wrap: wrap;
   }
