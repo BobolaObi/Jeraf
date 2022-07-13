@@ -15,7 +15,7 @@ section{
   text-align: right;
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 
@@ -35,5 +35,10 @@ section{
   /*Image Styles*/
   img{
     max-width: 220px;
+    padding-bottom: 50px;
   }
+}
+
+b{
+  color: #8282ef;
 }
