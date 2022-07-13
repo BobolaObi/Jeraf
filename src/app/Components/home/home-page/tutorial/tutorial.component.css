@@ -5,6 +5,7 @@ body, div{
 align-items: center;
 justify-content: space-evenly;
   margin: auto;
+  max-width: 2000px;
 
 }
 section{

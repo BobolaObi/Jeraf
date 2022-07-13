@@ -1,9 +1,13 @@
 /*Body Styles*/
+html{
+  background-color: #F5F5F5;
+}
 body{
   padding: 6vh;
   background-color: #F5F5F5;
-  margin: 30px;
+  margin: auto;
   overflow: hidden;
+  max-width: 2000px;
 }
 body, div{
   display: flex;
