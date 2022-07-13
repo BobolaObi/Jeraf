@@ -36,10 +36,11 @@ span {
 
 /*Image Styles*/
 #item {
-  max-width: 300px;
+  max-width: 85%;
   object-fit: contain;
   border-radius: 3px;
-  padding: 0px 15px;
+  padding: 0px 35px;
+
 
 
 }
