@@ -17,13 +17,13 @@ export class ProductsComponent implements OnInit {
       {
         image: "assets/Product-Images/sticker.png",
         shadow: "assets/Product-Images/shadow.svg",
-        description: "Our smart sticker with a NFC chip which allows you to share your contacts with just a tap on your smartphone and can be placed anywhere.",
+        description: " Smart sticker with a NFC chip which allows you to share your contacts with just a tap on your smartphone and can be placed anywhere.",
         button: "Add to Cart",
       },
       {
         image: "assets/Product-Images/squared-card.png",
         shadow: "assets/Product-Images/shadow.svg",
-        description: "Our customizable smart business card with a NFC chip which allows you to share your contacts with just a tap on your smartphone\n",
+        description: "Customizable smart business card with a NFC chip which allows you to share your contacts with just a tap on your smartphone\n",
         button: "ADD TO CART",
       },
       {
